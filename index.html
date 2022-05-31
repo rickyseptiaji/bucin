@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <!-- Design by Ricky -->
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teruntuk Kamu</title>
+    <!--Stylesheet-->
+    <style media="screen">
+      *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #7aacff;
+}
+.container{
+    width: 250px;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    left: 50%;
+    overflow: hidden;
+    border: 10px solid #ffffff;
+    border-radius: 8px;
+    box-shadow: 10px 25px 30px rgba(0,0,0,0.3);
+}
+.wrapper{
+    width: 100%;
+    display: flex;
+    animation: slide 16s infinite;
+}
+@keyframes slide{
+    0%{
+        transform: translateX(0);
+    }
+    25%{
+        transform: translateX(0);
+    }
+    30%{
+        transform: translateX(-100%);
+    }
+    50%{
+        transform: translateX(-100%);
+    }
+    55%{
+        transform: translateX(-200%);
+    }
+    75%{
+        transform: translateX(-200%);
+    }
+    80%{
+        transform: translateX(-300%);
+    }
+    100%{
+        transform: translateX(-300%);
+    }
+}
+img{
+    width: 100%;
+}
+
+    </style>
+</head>
+<body>
+<div class="container">
+        <div class="wrapper">
+            <img src="pict1.jpg">
+            <img src="pict2.jpg">
+            <img src="pict3.jpg">
+            <img src="pict4.jpg">
+        </div>
+    </div>
+    <h1 style="text-align: center; margin-bottom: 15px; text-color">Aku Sayang Kamu Via</h1>
+        <audio controls autoplay loop>
+            <source src="Troye Sivan - Angel Baby.mp3" type="audio/mp3">
+        </audio>
+        
+</body>
+</html>
